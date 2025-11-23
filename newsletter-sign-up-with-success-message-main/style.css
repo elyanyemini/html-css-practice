@@ -1,0 +1,150 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    color: hsl(235, 18%, 26%);
+
+}
+
+h5 {
+        margin-bottom: 7px;
+        color: hsl(235, 18%, 26%);
+    }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.blueContainer{
+    display: flex;
+    background-color: hsl(234, 29%, 20%);
+    height: 85%;
+    width: 85%;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.mainbox{
+    display: flex;
+    margin: auto;
+    height: 65%;
+    width: 65%;
+    max-width: 700px;
+    background-color: white;
+    border-radius: 3%;
+    overflow: hidden;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.text-side {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.text{
+    height: 70%;
+    width: 100%;
+}
+
+.bullet-list{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.bullet::before{
+    content: url("assets/images/icon-list.svg");
+    margin-right: 6px;
+
+}
+
+.emailPart{
+    display: flex;
+    margin-top: 20px;
+}
+
+#emailTitle{
+    font-size: 1px;
+}
+
+.emailBox{
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.emailBox:hover{
+    cursor: pointer;
+}
+
+.submitButton{
+    background-color: hsl(235, 18%, 26%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 41px;
+    box-sizing: border-box;
+    padding: 10px 50px;
+}
+
+.submitButton:hover {
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.pic-side{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pic-side img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2%;
+}
+
+.successContainer{
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    justify-content: center;
+    width: 65%;
+}
+
+.successMsg::before{
+    content: url("assets/images/icon-success.svg");
+    margin-right: 6px;
+
+}
+
+.successMsg{
+    height: 30%;
+    width: 30%;
+    max-width: 700px;
+    background-color: white;
+    border-radius: 3%;
+    overflow: hidden;
+    padding: 3%;   
+}
